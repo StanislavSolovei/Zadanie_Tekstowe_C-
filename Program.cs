@@ -11,6 +11,7 @@ namespace Zadania_Tekstowe_1
             string zadanie2;
             string zadanie3;
             string zadanie4;
+            string zadanie5;
             string question;
             string question2;
             string question3;
@@ -82,6 +83,13 @@ namespace Zadania_Tekstowe_1
                 string answer = "Okej, spoko";
                 Console.WriteLine(answer);
             }
+            // zadanie 7
+            Console.WriteLine("Zadanie 7. Napisz jakieś zdanie");
+            zadanie5 = Console.ReadLine();
+            string nospace2 = zadanie5.Trim();
+            string[] word = zadanie5.Split(' ');
+            Console.WriteLine("Ilość słów w zdaniu:" + word.Length);
+
         }
     }
 }
